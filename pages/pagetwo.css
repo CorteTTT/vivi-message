@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+
+}
+
+body{
+background-color: brown;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color:#FFF;
+font-weight: lighter;
+}
+
+main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+main button{
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    font-size: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main button{
+animation: rotateA 0.4s ease-in-out infinite;    
+
+}
+
+main p {
+    font-size: 20px;
+
+    text-align: center;
+}
+
+@keyframes rotateA{
+
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+
+    50%{
+    transform: rotate(15deg);    
+    }
+
+    75%{
+        transform: rotate(-10deg);
+    }
+
+    90%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+#carta-container{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #fff;
+    text-decoration: underline;
+    max-width: 300px;
+    min-height: 400px;
+    color: #000;
+    border-radius: 2px;
+    padding: 4px;
+    display: none;
+}
+
+#page3-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 220px;
+    height: 60px;
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    animation: none;
+    display: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
